@@ -1,0 +1,167 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  }
+  
+  
+  header{
+  height: 100vh;
+  width: 100vw;
+  }
+
+
+body{
+    background-color: #FFFFF4;
+    font-size: 1.1em;
+    font-family: 'Comfortaa', sans-serif;
+    color: #B19CD9;
+}
+
+/* /font-family: 'Michroma', sans-serif; */
+/* font-family: 'Manrope', sans-serif */
+
+nav .logo{
+    font-weight: bold;
+    transition: 0.4s;
+    font-size: 2em;
+}
+.logo:hover{
+    opacity: 0.5;
+}
+
+
+nav{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+nav .navbar ul{
+   display: flex;
+
+}
+nav .navbar ul li{
+  margin: 0  25px;
+  transition: 0.3s ease-in-out;
+}
+nav .navbar ul li:hover{
+  scale: 1.10;
+  font-weight: 500;
+}
+
+/*------footer-----*/
+
+
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:2vh
+}
+
+.social-icons img{
+  background-color:#FFFFF4;
+  color:#818a91;
+  font-size:16px;
+  width:37px;
+  height:37px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+}
+
+/*------NAV-----*/
+.navbar{
+  font-family: 'Comfortaa', sans-serif
+}
+
+.hamb{
+  display: none;
+  width: 30px;
+  right: 50px;
+  top: 50px;
+  position: absolute;
+}
+
+.site-footer{
+  background-color: #b19cd96d;
+  color:white;
+  font-weight: bold;
+
+}
+@media screen and (max-width: 900px){
+
+  nav{
+  padding: 0;
+  
+}
+  .hamb{
+    z-index: 99;
+    display: block;
+  }
+
+   .logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+  }
+
+
+  .navbar{
+    z-index: 98;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #b19cd9a3;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 100%  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease;
+  }
+
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+
+ 
+   .navbar.mobile-menu{
+    margin-left: 0;
+
+  }
+
+
+  .navbar ul li a{
+    color: white;
+    font-weight: 600;
+  }
+  footer{
+    font-size: 0.8em;
+  }
+
+}
+  

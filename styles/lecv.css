@@ -1,0 +1,185 @@
+
+.base1{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(../images/bureau2.png);
+    background-image: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+nav{
+padding: 2%;
+}
+.forme1{
+width: 70vh;
+height: 65vh;
+background-color: #FFFFF4;
+display: flex;
+justify-content: center;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+margin-bottom: 2%;
+
+}
+.photo{
+z-index: 1;
+position: absolute;
+margin-top: 3%;
+height: 320px;
+width: 320px;
+border-radius: 50%;
+overflow: hidden;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.photo img{
+height:130%;
+width: 100%;
+}
+.forme1 p,span{
+   align-self: flex-end;
+   text-align: center;
+   line-height: 6vh;
+}
+.forme1 span{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.forme1 p{
+    font-size: 1.5em;
+    padding-bottom: 3%;
+}
+.base2{
+    margin-top: 1%;
+    width: 100%;
+    
+     text-align: center;
+     margin-bottom: 5%;
+}
+.base2 p{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.base2 section{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 3vh;
+    text-align: justify;
+}
+.para{
+    margin-bottom: 5%;
+}
+/*---------barre---*/
+.skills span {
+  top: -45px;
+  left: 2%;
+  position: relative;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: #fff;
+  z-index: 80;
+  width: 100%;
+}
+
+progress {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 2.5em;
+  width: 100%;
+
+}
+
+progress::-webkit-progress-bar {
+  background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+  background-color: #B19CD9;
+}
+
+progress::-moz-progress-bar {
+  background-color: #329ad1;
+}
+
+  
+
+.boutton{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+button a,input{
+  font-family: 'Comfortaa', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 30px;
+  border: hidden;
+  transition: 0.3s ease-in-out;
+ 
+}
+button a, input:hover {
+background: linear-gradient(#B19CD9, #8788ba);
+text-decoration: none;
+scale: 1.05;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+}
+button a,input[value]{
+font-size: 1em;
+
+}
+.boutton{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+footer{
+ width: 100%;
+padding-top: 2%;
+padding-bottom: 2%;
+ 
+}
+
+/*-----------------------RESPONSIVE----------------/*/
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    padding-left: 2%;
+    
+  }
+  nav{
+    padding: 0;
+  }
+
+  .base1{
+    display: none;
+  }
+ 
+  .base2 p {
+    font-size: 1.8em;
+    margin-top: 25%;
+  }
+
+  .main img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .apropos {
+    width: 100%;
+  }
+
+
+
+ 
+
+  .photo , .forme1{
+    box-shadow: none;
+  }
+
+  
+}

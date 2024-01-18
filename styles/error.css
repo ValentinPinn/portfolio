@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.flex_404{
+    padding-top: 5%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: raw;
+    width: 100%;
+    position: left;
+}
+.notfound span{
+    z-index: 98;
+    font-size: 17em;
+    font-weight: bolder;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+.notfound p{
+    text-align: center;
+    font-size: 1.5em;
+}
+.jt{
+    z-index: 99;
+    ;
+}
+.notfound{
+    padding-top: 5%;
+}
+.jt img{
+    margin-left: 20%;
+    height: 700px;
+    width: 100%;
+    justify-self: center;
+    padding-bottom: 10%;
+}
+.text404{
+    text-align: center;
+}
+.oups{
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 900px){
+
+   
+        
+
+    .notfound span{
+        font-size: 10em;
+
+    }
+    .jt{
+        display: none;
+    }
+
+    .flex_404{
+        padding: 0;
+        height: 100%;
+    }
+
+
+    .notfound{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        position: static;
+    }
+
+
+}

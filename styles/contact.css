@@ -1,0 +1,154 @@
+
+.adjust{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.box1 {
+  width: 122vh;
+  height: 80vh;
+  background-color: white;
+  
+  margin-top: 5vh;
+  margin-bottom: 10%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.form {
+  
+  
+ border-radius: 2%;
+ padding-inline: 6%;
+ padding-top: 2%;
+  
+}
+
+form ul li {
+  list-style: none; 
+}
+
+form ul li input {
+  width: 120%;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: solid 1px gainsboro;
+  background-color: white;
+}
+
+form ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.img1 {
+  width: 70vh;
+  border: solid;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+
+legend {
+  margin-top: 2vh;
+  margin-left: 4vh;
+  margin-bottom: 5vh;
+  font-size: 1.5em;
+}
+
+textarea {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: solid 0.5px gainsboro;
+}
+
+.ghost {
+  border-top-right-radius: 1%;
+  border-bottom-right-radius: 1%;
+}
+
+
+.site-footer .copyright-text, .site-footer .social-icons {
+  text-align: center;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 2vh;
+}
+
+.social-icons img {
+  background-color: #FFFFF4;
+  color: #818a91;
+  font-size: 16px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+}
+
+.form input[type="submit"] {
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 40px;
+  border: hidden;
+  align-self: center;
+  background: linear-gradient(#B19CD9, #8788ba);
+  transition: 0.3s ease-in-out;
+}
+
+.form input[type="submit"]:hover {
+  background: linear-gradient(#B19CD9, #8788ba);
+  text-decoration: none;
+  scale: 1.05;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;      
+}
+
+.form input, textarea {
+  font-family: 'Comfortaa', sans-serif; 
+}
+
+footer{
+  width: 100%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+
+}
+@media only screen and (max-width: 900px) {
+  .box1 {
+    width: 87%;
+    height: auto;
+   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30% auto;
+  }
+
+
+  .img1 {
+    display: none;
+  }
+
+  .bouton{
+  margin: auto;
+  margin-bottom: 5%;
+  }
+}

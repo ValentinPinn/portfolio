@@ -1,0 +1,60 @@
+h1 {
+  font-size: 7em;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.c1 {
+  font-size: 3em;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.apropos a,
+.apropos input {
+  font-family: 'Comfortaa', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 30px;
+  border: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.apropos input:hover {
+  background: linear-gradient(#B19CD9, #8788ba);
+  text-decoration: none;
+  scale: 1.05;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.site-footer a {
+  color: #B19CD9;
+  text-decoration: none;
+}
+footer  {
+padding:1%  1%;
+}
+
+footer p {
+  margin-bottom:  1%;
+}
+
+
+@media screen and (max-width: 900px){
+
+h1{
+  font-size: 3em;
+  padding-top: 30%;
+}
+
+.c1{
+  font-size: 1.7em;
+
+}
+}
