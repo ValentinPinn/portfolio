@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Manrope:wght@200;300&family=Michroma&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="../styles/site.css" rel="stylesheet" />
+    <link href="../styles/contact.css" rel="stylesheet" />
+    <script src="../js/site.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a class="logo" href="le-ratio.html">VP</a>
+        <div class="navbar">
+            <ul>
+                <li><a href="le-ratio.html">ACCUEIL</a></li>
+                <li><a href="a-propos.html">À PROPOS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+            </ul>
+        </div>
+        <img class="hamb"  src="../images/menu.png" alt="burger menu">
+    </nav>
+
+    <div class="adjust">
+    <div class="box1">
+        <div class="form">
+            <form method="post" action="../php/submit.php">
+
+                <legend>Envie d'Échanger ?</legend>
+                <ul>
+                    <li><input type="text" name="nom" placeholder="Nom"></li>
+                    <li><input type="text" name="prenom" placeholder="Prénom"></li>
+                    <li><input type="email" name="email" placeholder="E-mail"></li>
+                    <li><textarea name="commentaire" rows="10" cols="33" placeholder="Commentaire"></textarea></li>
+                    <li class="bouton"><input  type="submit" value="Envoyer"></li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="img1">
+            <img  class="ghost" src="../images/immeuble.webp" height="100%" width="100%">
+        </div>
+    </div>
+</div>
+    <footer class="site-footer">
+            <div>
+                <p class="copyright-text">Copyright &copy; 2023 Tout droits réservés par Valentin Pinon</p>
+            </div>
+       
+    </footer>
+</body>
+</html>
